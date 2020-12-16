@@ -14,8 +14,8 @@ setuptools.setup(
     author_email="buelter.christoph@gmail.com",
     packages=setuptools.find_packages(),
     install_requires=[
-        "astroid==1.3.2",
-        "pylint==1.4"
+        "astroid==2.4.2",
+        "pylint==2.6.0"
     ],
     entry_points={
         "console_scripts": [
